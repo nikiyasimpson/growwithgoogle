@@ -1,0 +1,94 @@
+body {
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    background-image: url("gray-background.jpg");
+}
+
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    color: white;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+h3 {
+    margin: 1em 0 0.25em;
+
+}
+
+table,
+tr,
+td {
+    border: 1px solid grey;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    /*height: 20px;*/
+}
+
+td {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+}
+
+input[type=number] {
+    width: 6em;
+    margin-right:5px;
+}
+
+input[type=color] {
+  border-radius: 20px;
+}
+
+input[type=submit]{
+  font-family: 'Handlee', cursive;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.container {
+  height:auto;
+  overflow:hidden;
+}
+
+#colorSelector {
+  float:left;
+  width: 200px;
+  height: 200px;
+  border: solid 1px black;
+  background-color: white;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+#drawingArea {
+  background-color: grey;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid black;
+  width: auto;
+  overflow: hidden;
+}
+
+.menu {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+}

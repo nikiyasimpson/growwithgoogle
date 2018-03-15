@@ -1,0 +1,49 @@
+
+h3 {
+	font-weight:bold;
+  font-size:1.5em;
+  text-align: center;
+  color:dimgrey;
+}
+
+div {
+  padding: 10px;
+  border: solid;
+  border-color: grey;
+  border-width: 1px;
+  border-radius: 10px;
+
+}
+.innerdiv
+{ width: 280px; background-color:dimgrey; color:white}
+
+ul {
+  list-style-type:none;
+  padding-left:0;
+}
+li {padding-bottom: 5px;}
+.container {
+	width: 310px;
+}
+
+.card-border {
+  box-shadow: 10px 5px 5px grey;
+  }
+.emphasis {
+	font-style: italic;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.myfont {
+   font-family: 'Quicksand', sans-serif;
+}
+
+.imgborder {border: solid;
+border-color: grey;
+border-width: 3px;
+margin-bottom: 10px;
+width:300px;
+border-radius: 10px;}
